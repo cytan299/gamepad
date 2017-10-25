@@ -4,7 +4,7 @@ It seems that there are not very good instructions on how to create a HID keyboa
 
 The Arduino program is _gamepad.ino_.
 
-It is a *TERRIBLE* program that is only good for pedagogical purposesonly. It is totally unsuitable for playing games because it is pathetically slow! I'm sure hackers can get this code working at a faster clip, but my interest in it faded after I discovered that BLE keyboard devices are *not* supported in Raspbian, i.e. BLE keyboard devices are not supported in Raspberry PI 3 as of this writing (Oct 2017).
+It is a *TERRIBLE* program that is only good for pedagogical purposes only. It is totally unsuitable for playing games because it is pathetically slow! I'm sure hackers can get this code working at a faster clip, but my interest in it faded after I discovered that BLE keyboard devices are *not* supported in Raspbian, i.e. BLE keyboard devices are not supported in Raspberry PI 3 as of this writing (Oct 2017).
 
 The gamepad.ino has been tested to work on a Mac, IPAD and IPhone. Once paired, you can open an editor or an input box, like the url input of Chrome, to see the gamepad in action. Pressing any buttons on the gamepad will generate a letter. The left joystick mimics the arrow keys on the keyboard.
 
